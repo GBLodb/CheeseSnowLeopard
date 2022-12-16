@@ -6,7 +6,7 @@ plugins {
     id("net.mamoe.mirai-console") version "2.13.2"
 }
 
-group = "org.example"
+group = "gblodb"
 version = "0.1.0"
 
 repositories {
@@ -14,4 +14,10 @@ repositories {
         maven("https://maven.aliyun.com/repository/public") // 阿里云国内代理仓库
     }
     mavenCentral()
+}
+
+dependencies {
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.14.1")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.14.1")
+    implementation("com.github.plexpt:chatgpt:1.1.2")
 }

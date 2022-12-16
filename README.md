@@ -1,5 +1,5 @@
-# mirai-console-plugin-template
+# CheeseSnowLeopard
 
-[Mirai Console](https://github.com/mamoe/mirai-console) 插件模板, 使用 Kotlin + Gradle.
+Mirai Console 插件, 接入 ChatGPT.
 
-[如何使用](https://github.com/project-mirai/how-to-use-plugin-template)
+props.json 相关内容参见 [PlexPt/chatgpt-java](https://github.com/PlexPt/chatgpt-java).
